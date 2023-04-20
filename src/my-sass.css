@@ -1,0 +1,15 @@
+.wrapper-container {
+  width: 850px;
+  height: 90vh;
+  background-color: grey;
+  margin: 2rem auto;
+}
+
+.logo {
+  color: yellow;
+}
+
+.header {
+  display: flex;
+  justify-content: space-around;
+}/*# sourceMappingURL=my-sass.css.map */
