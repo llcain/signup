@@ -5,7 +5,15 @@ import './my-sass.scss';
 function App() {
   return (
     <div className='wrapper-container'>
-      <h1>I have a Car!!</h1>
+      <header className='header'>
+        <div className='logo'>
+          LOGO
+        </div>
+        <div className='sign-btn'>
+          <button>Sign in</button>
+          <button>Sign out</button>
+        </div>
+      </header>
     </div>
   );
 }

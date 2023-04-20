@@ -1,5 +1,17 @@
-$myColor: red;
+.wrapper-container {
+    width: 850px;
+    height: 90vh;
+    background-color: grey;
+    margin: 2rem auto;
+}
 
-h1 {
+$myColor: yellow;
+
+.logo {
     color: $myColor;
+}
+
+.header {
+    display: flex;
+    justify-content: space-around;
 }
