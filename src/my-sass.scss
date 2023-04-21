@@ -9,9 +9,18 @@ $myColor: yellow;
 
 .logo {
     color: $myColor;
+    font-size: 20px;
 }
 
 .header {
     display: flex;
     justify-content: space-around;
+}
+
+.sign-up, .logo {
+    margin-top: 2rem;
+}
+
+button {
+    margin-right: 20px;
 }
